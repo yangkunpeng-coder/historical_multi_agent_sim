@@ -1,0 +1,2 @@
+"""Discrete spatial model."""
+

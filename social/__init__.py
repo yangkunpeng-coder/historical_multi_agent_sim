@@ -1,0 +1,2 @@
+"""Agent relationship model."""
+

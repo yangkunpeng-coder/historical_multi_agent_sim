@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "historical-multi-agent-sim"
+version = "0.1.0"
+description = "Event-driven LLM multi-agent historical simulation framework"
+requires-python = ">=3.11"
+dependencies = ["pydantic>=2.7,<3"]
+
+[tool.setuptools]
+py-modules = ["main"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["config*", "core*", "agents*", "planning*", "reasoning*", "tools*", "social*", "activity*", "spatial*", "scenarios*", "storage*"]
+

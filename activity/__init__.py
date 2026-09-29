@@ -1,0 +1,2 @@
+"""Coarse-grained daily activities."""
+
